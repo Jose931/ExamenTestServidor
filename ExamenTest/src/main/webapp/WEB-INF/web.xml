@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd
+																																											  http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="5.0">
+	<servlet>
+		<description></description>
+		<display-name>RecuperaExamen</display-name>
+		<servlet-name>RecuperaExamen</servlet-name>
+		<servlet-class>RecuperaExamen</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RecuperaExamen</servlet-name>
+		<url-pattern>/RecuperaExamen</url-pattern>
+	</servlet-mapping>
+	<display-name>ExamenTest</display-name>
+	<welcome-file-list>
+		<welcome-file>RecuperaExamen</welcome-file>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description></description>
+		<display-name>Navegacion</display-name>
+		<servlet-name>Navegacion</servlet-name>
+		<servlet-class>Navegacion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Navegacion</servlet-name>
+		<url-pattern>/Navegacion</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>CalculoPuntuacion</display-name>
+		<servlet-name>CalculoPuntuacion</servlet-name>
+		<servlet-class>CalculoPuntuacion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CalculoPuntuacion</servlet-name>
+		<url-pattern>/CalculoPuntuacion</url-pattern>
+	</servlet-mapping>
+</web-app>
